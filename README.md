@@ -1,5 +1,24 @@
 # MeanCloud_7DtD
 MeanCloud's 7 Days to Die modlets
 
-For more details, support, or to provide feedback, please see:
-[https://7daystodie.com/forums/showthread.php?132019](https://7daystodie.com/forums/showthread.php?132019)
+**For game**: [7 Days to Die](https://7daystodie.com)
+
+**Note**
+These mods were originally authored by [MeanCloud  e.g. psouza4](https://community.7daystodie.com/profile/9310-psouza4). I have created ths repo for a19 updates/fixes.  MeanClouds a18 Github repo is [here](https://github.com/psouza4/MeanCloud_7DtD) but I am not forking it die to naming issues (some mods have a18 in the name) and I will not be able to port all mods just yet.
+
+Note: Should anyone, The Fun Pimps, etc wonder, MeanCloud gave me permission to "to fork and extend, update, and modify the behavior of any of my mods." per Discord personal communications. I plan on trying to keep these up to date and as close to original purpose/functionality as much as I reasonably can and mods I am able to update in this repo should be the "official continuation" of MeanClouds work until (or if) MeanClouds decides to continue maintainence/updates.  At that time I will make sure MeanClouds has available a copy of the repo/most recent version/etc. and then delete this repo if needed/requested.
+
+I will accept pulls/updates/etc. to these mods as long as they maintain continuity with the originals.  This is just a maintenance effort, not an expansion/rebalance unless it is needed as the vanilla game updates often change game dynamics :)
+
+**To install game mods**: [7 Days to Die modlet installation](https://gist.github.com/doughphunghus/a1907c5f63b5fe79bd823965328f25bf)
+
+**Modding Terms of Agreement**: [TFP Official Modding Forum Policy ](https://community.7daystodie.com/topic/4189-tfp-official-modding-forum-policy/)
+
+**Discussions (and additional info, links, etc)**: [My modlets main page](https://community.7daystodie.com/topic/17197-doughs-modlets)
+
+#### Doughphunghus's fork - a19 General updates notes:
+- TBD - Work in Progress
+
+| Modlet | Tested on game version  | Note |
+| :------------ | :------------- | :------------- |
+| WIP | WIP | WIP |
