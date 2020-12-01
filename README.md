@@ -4,7 +4,7 @@ MeanCloud's 7 Days to Die modlets
 **For game**: [7 Days to Die](https://7daystodie.com)
 
 **Note**
-These mods were originally authored by [MeanCloud  e.g. psouza4](https://community.7daystodie.com/profile/9310-psouza4). I have created ths repo for a19 updates/fixes.  MeanClouds a18 Github repo is [here](https://github.com/psouza4/MeanCloud_7DtD) but I am not forking it die to naming issues (some mods have a18 in the name) and I will not be able to port all mods just yet.
+These mods were originally authored by [MeanCloud  e.g. psouza4](https://community.7daystodie.com/profile/9310-psouza4). I have created ths repo for a19 updates/fixes.  MeanClouds a18 Github repo is [here](https://github.com/psouza4/MeanCloud_7DtD).
 
 Note: Should anyone, The Fun Pimps, etc wonder, MeanCloud gave me permission to "to fork and extend, update, and modify the behavior of any of my mods." per Discord personal communications. I plan on trying to keep these up to date and as close to original purpose/functionality as much as I reasonably can and mods I am able to update in this repo should be the "official continuation" of MeanClouds work until (or if) MeanClouds decides to continue maintainence/updates.  At that time I will make sure MeanClouds has available a copy of the repo/most recent version/etc. and then delete this repo if needed/requested.
 
