@@ -21,4 +21,17 @@ I will accept pulls/updates/etc. to these mods as long as they maintain continui
 
 | Modlet | Tested on game version  | Note |
 | :------------ | :------------- | :------------- |
-| WIP | WIP | WIP |
+| FarmLife2Mod_A18 | WIP | |
+| MeanCloud__BarbedWireA18 | WIP | |
+| MeanCloud__Cannabis | WIP | [Original Forum Thread](https://community.7daystodie.com/topic/15554-meanclouds-cannabis-modlet-a18/)|
+| MeanCloud__DontUseUpWater | WIP | |
+| MeanCloud__EnemyReachShortener | WIP | |
+| MeanCloud__FishingA18 | WIP | [Original Forum Thread](https://community.7daystodie.com/topic/14889-meanclouds-fishing-modlet-a18/)|
+| MeanCloud__ForgesHold1M | WIP | |
+| MeanCloud__IncreasedAnimals | WIP | |
+| MeanCloud__MedStackSizes | WIP | |
+| MeanCloud__Mining | WIP | [Original Forum Thread](https://community.7daystodie.com/topic/15288-meanclouds-mining-modlet-a18-with-copper-zinc-and-excavators/)|
+| MeanCloud__RegeneratingBoulders | WIP | [Original Forum Thread](https://community.7daystodie.com/topic/14622-regenerating-boulders-modlet/)|
+| MeanCloud__RegeneratingBoulders_CaZ | WIP | |
+| MeanCloud__ScrapBoneKnives | WIP | |
+| MeanCloud__SupplementalPumpkins | WIP | |
