@@ -1,6 +1,12 @@
 <MeanCloud_Pumpkins>
 
+  <!-- DOUGH: Removing as this line gives a warning
   <remove xpath="/Ignore_Warnings_In_This_Modelet[@modname='MeanCloud_Pumpkins'][@filename='\Config\blocks.xml']"/>
+  -->
+
+  <!-- DOUGH:
+  NOTE: May be anle to remove "remove" nodes. Will look at later.
+  -->
   <remove xpath="/blocks/block[@name='plantedPumpkin1']"/>
   <remove xpath="/blocks/block[@name='plantedPumpkin2']"/>
   <remove xpath="/blocks/block[@name='plantedPumpkin3Harvest']"/>

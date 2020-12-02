@@ -1,12 +1,23 @@
 <MeanCloud_IncreasedAnimals>
 
-  <set xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsDesert']/entity[@name='invisibleAnimal']/@prob">4</set>
-  <set xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']/entity[@name='invisibleAnimal']/@prob">2</set>
-  <set xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']/entity[@name='invisibleAnimal']/@prob">2</set>
-  <set xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']/entity[@name='invisibleAnimal']/@prob">4</set>
-  <set xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']/entity[@name='invisibleAnimal']/@prob">4</set>
+  <!-- DOUGH: Many entitygroups no longer exist in a19. Trying to convert them where it makes sense -->
 
-  <insertAfter xpath="/entitygroups/entitygroup[@name='AnimalsAll']">
+  <!-- DOUGH: Only enemy animals in these biomes now
+  FriendlyAnimalsX -> EnemyAnimalsX
+  -->
+  <set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']/entity[@name='invisibleAnimalEnemy']/@prob">4</set>
+  <set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/entity[@name='invisibleAnimalEnemy']/@prob">2</set>
+  <set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']/entity[@name='invisibleAnimalEnemy']/@prob">4</set>
+
+  <!-- DOUGH: FriendlyAnimalsForest -> WildGameForest -->
+  <set xpath="/entitygroups/entitygroup[@name='WildGameForest']/entity[@name='invisibleAnimal']/@prob">2</set> <!-- DOUGH: Default = 50 -->
+  <!-- DOUGH: FriendlyAnimalsPlains -> EnemyAnimalsWasteland
+  BUT no invisibleAnimal is in this group :(
+  <set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']/entity[@name='invisibleAnimal']/@prob">4</set>
+  -->
+
+  <!-- DOUGH: AnimalsAll no longer exists. Doesn't matter where it goes though. -->
+  <insertAfter xpath="/entitygroups/entitygroup[@name='WildGameForest']">
     <entitygroup name="FriendlyAnimalsAll">
       <entity name="animalRabbit" prob="0.9"/>
       <entity name="animalChicken" prob="0.3"/>
@@ -20,72 +31,83 @@
     </entitygroup>
   </insertAfter>
 
-  <append xpath="/entitygroups/entitygroup[@name='AnimalsSmall']"><entity name="animalHare" prob="0.9"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='AnimalsSmall']"><entity name="animalHen" prob="0.9"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='AnimalsSmall']"><entity name="animalPig" prob="0.9"/></append> 
+  <append xpath="/entitygroups/entitygroup[@name='AnimalsSmall']"><entity name="animalHare" prob="0.9"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='AnimalsSmall']"><entity name="animalHen" prob="0.9"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='AnimalsSmall']"><entity name="animalPig" prob="0.9"/></append>
 
-  <append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']"><entity name="animalMoose" prob="0.1"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']"><entity name="animalDeer" prob="0.2"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']"><entity name="animalHare" prob="0.6"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']"><entity name="animalHen" prob="0.9"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']"><entity name="animalPig" prob="0.9"/></append> 
+  <append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']"><entity name="animalMoose" prob="0.1"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']"><entity name="animalDeer" prob="0.2"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']"><entity name="animalHare" prob="0.6"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']"><entity name="animalHen" prob="0.9"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']"><entity name="animalPig" prob="0.9"/></append>
 
-  <append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']"><entity name="animalMoose" prob="0.1"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']"><entity name="animalDeer" prob="0.3"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']"><entity name="animalHare" prob="0.9"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']"><entity name="animalHen" prob="0.9"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']"><entity name="animalPig" prob="0.6"/></append> 
+  <!-- DOUGH: AnimalsDesert no longer exists. Set to EnemyAnimalsDesert -->
+  <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']"><entity name="animalMoose" prob="0.1"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']"><entity name="animalDeer" prob="0.3"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']"><entity name="animalHare" prob="0.9"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']"><entity name="animalHen" prob="0.9"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']"><entity name="animalPig" prob="0.6"/></append>
 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsDesert']"><entity name="animalMoose" prob="0.1"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsDesert']"><entity name="animalDeer" prob="0.3"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsDesert']"><entity name="animalHare" prob="0.9"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsDesert']"><entity name="animalHen" prob="0.9"/></append>
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsDesert']"><entity name="animalPig" prob="0.6"/></append>
+  <!-- DOUGH: FriendlyAnimalsDesert no longer exists. Set to EnemyAnimalsDesert -->
+  <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']"><entity name="animalMoose" prob="0.1"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']"><entity name="animalDeer" prob="0.3"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']"><entity name="animalHare" prob="0.9"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']"><entity name="animalHen" prob="0.9"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']"><entity name="animalPig" prob="0.6"/></append>
 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']"><entity name="animalMoose" prob="0.9"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']"><entity name="animalDeer" prob="0.7"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']"><entity name="animalHare" prob="0.6"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']"><entity name="animalPig" prob="0.3"/></append>
- 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']"><entity name="animalMoose" prob="0.6"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']"><entity name="animalDeer" prob="0.9"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']"><entity name="animalHare" prob="0.7"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']"><entity name="animalHen" prob="0.2"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']"><entity name="animalPig" prob="0.7"/></append> 
+  <!-- DOUGH: FriendlyAnimalsSnow no longer exists. Set to EnemyAnimalsSnow -->
+  <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']"><entity name="animalMoose" prob="0.9"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']"><entity name="animalDeer" prob="0.7"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']"><entity name="animalHare" prob="0.6"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']"><entity name="animalPig" prob="0.3"/></append>
 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']"><entity name="animalMoose" prob="0.6"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']"><entity name="animalDeer" prob="0.9"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']"><entity name="animalHare" prob="0.9"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']"><entity name="animalHen" prob="0.1"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']"><entity name="animalPig" prob="0.4"/></append>
- 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']"><entity name="animalMoose" prob="0.5"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']"><entity name="animalDeer" prob="0.9"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']"><entity name="animalHare" prob="0.8"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']"><entity name="animalHen" prob="0.3"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']"><entity name="animalPig" prob="0.6"/></append> 
- 
-  <append xpath="/entitygroups/entitygroup[@name='AnimalsAll']"><entity name="animalMoose" prob="0.3"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='AnimalsAll']"><entity name="animalDeer" prob="0.7"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='AnimalsAll']"><entity name="animalHare" prob="0.9"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='AnimalsAll']"><entity name="animalHen" prob="0.3"/></append> 
-  <append xpath="/entitygroups/entitygroup[@name='AnimalsAll']"><entity name="animalPig" prob="0.5"/></append> 
+  <!-- DOUGH: FriendlyAnimalsForest no longer exists. Set to WildGameForest -->
+  <append xpath="/entitygroups/entitygroup[@name='WildGameForest']"><entity name="animalMoose" prob="0.6"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='WildGameForest']"><entity name="animalDeer" prob="0.9"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='WildGameForest']"><entity name="animalHare" prob="0.7"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='WildGameForest']"><entity name="animalHen" prob="0.2"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='WildGameForest']"><entity name="animalPig" prob="0.7"/></append>
 
-  <append xpath="/entitygroups/entitygroup/entity[@name='animalStag']">prob="0.3"</append> 
-  <append xpath="/entitygroups/entitygroup/entity[@name='animalDoe']">prob="0.7"</append> 
-  <append xpath="/entitygroups/entitygroup/entity[@name='animalChicken']">prob="0.9"</append> 
-  <append xpath="/entitygroups/entitygroup/entity[@name='animalRabbit']">prob="0.3"</append> 
+  <!-- DOUGH: FriendlyAnimalsBurntForest no longer exists. Set to EnemyAnimalsBurntForest -->
+  <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']"><entity name="animalMoose" prob="0.6"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']"><entity name="animalDeer" prob="0.9"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']"><entity name="animalHare" prob="0.9"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']"><entity name="animalHen" prob="0.1"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']"><entity name="animalPig" prob="0.4"/></append>
+
+  <!-- DOUGH: Plains biome no longer exists -->
+  <!--
+  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']"><entity name="animalMoose" prob="0.5"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']"><entity name="animalDeer" prob="0.9"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']"><entity name="animalHare" prob="0.8"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']"><entity name="animalHen" prob="0.3"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']"><entity name="animalPig" prob="0.6"/></append>
+  -->
+
+  <!-- DOUGH: AnimalsAll no longer exists. Set to WildGameForest -->
+  <append xpath="/entitygroups/entitygroup[@name='WildGameForest']"><entity name="animalMoose" prob="0.3"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='WildGameForest']"><entity name="animalDeer" prob="0.7"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='WildGameForest']"><entity name="animalHare" prob="0.9"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='WildGameForest']"><entity name="animalHen" prob="0.3"/></append>
+  <append xpath="/entitygroups/entitygroup[@name='WildGameForest']"><entity name="animalPig" prob="0.5"/></append>
+
+  <!-- DOUGH: Looks like a buff to anything that is an vaniall friendly animal in all entitygroups -->
+  <append xpath="/entitygroups/entitygroup/entity[@name='animalStag']">prob="0.3"</append>
+  <append xpath="/entitygroups/entitygroup/entity[@name='animalDoe']">prob="0.7"</append>
+  <append xpath="/entitygroups/entitygroup/entity[@name='animalChicken']">prob="0.9"</append>
+  <append xpath="/entitygroups/entitygroup/entity[@name='animalRabbit']">prob="0.3"</append>
   <append xpath="/entitygroups/entitygroup/entity[@name='animalBoar']">prob="0.5"</append>
 
-  <set xpath="/entitygroups/entitygroup/entity[@name='animalZombieDog']">prob="0.0001"</set> 
-  <set xpath="/entitygroups/entitygroup/entity[@name='animalDireWolf']">prob="0.00001"</set> 
-  <set xpath="/entitygroups/entitygroup/entity[@name='animalMountainLion']">prob="0.001"</set> 
-  <set xpath="/entitygroups/entitygroup/entity[@name='animalWolf']">prob="0.001"</set> 
-  <set xpath="/entitygroups/entitygroup/entity[@name='animalSnake']">prob="0.001"</set> 
-  <set xpath="/entitygroups/entitygroup/entity[@name='animalBear']">prob="0.001"</set> 
+  <!-- DOUGH: Looks like a severe nerf to anyhting that is an enemy animal in all entitygroups -->
+  <set xpath="/entitygroups/entitygroup/entity[@name='animalZombieDog']">prob="0.0001"</set>
+  <set xpath="/entitygroups/entitygroup/entity[@name='animalDireWolf']">prob="0.00001"</set>
+  <set xpath="/entitygroups/entitygroup/entity[@name='animalMountainLion']">prob="0.001"</set>
+  <set xpath="/entitygroups/entitygroup/entity[@name='animalWolf']">prob="0.001"</set>
+  <set xpath="/entitygroups/entitygroup/entity[@name='animalSnake']">prob="0.001"</set>
+  <set xpath="/entitygroups/entitygroup/entity[@name='animalBear']">prob="0.001"</set>
   <set xpath="/entitygroups/entitygroup/entity[@name='animalZombieBear']">prob="0.0001"</set>
-  <set xpath="/entitygroups/entitygroup/entity[@name='animalZombieVulture']">prob="0.0001"</set> 
-  <set xpath="/entitygroups/entitygroup/entity[@name='animalZombieVultureRadiated']">prob="0.00001"</set> 
-  <set xpath="/entitygroups/entitygroup/entity[@name='animalCoyote']">prob="0.001"</set> 
+  <set xpath="/entitygroups/entitygroup/entity[@name='animalZombieVulture']">prob="0.0001"</set>
+  <set xpath="/entitygroups/entitygroup/entity[@name='animalZombieVultureRadiated']">prob="0.00001"</set>
+  <set xpath="/entitygroups/entitygroup/entity[@name='animalCoyote']">prob="0.001"</set>
 
 </MeanCloud_IncreasedAnimals>

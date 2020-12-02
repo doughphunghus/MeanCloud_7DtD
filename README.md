@@ -18,20 +18,24 @@ I will accept outside pulls/updates/etc. to these mods as long as they maintain 
 
 #### Doughphunghus's fork - a19 General updates notes:
 - TBD - Work in Progress
+- Updated README
+
+#### Additional credits:
+- [Eko](https://community.7daystodie.com/profile/6168-eko/), for a19 posted fixes to MeanCloud__Mining
 
 | Modlet | Tested on game version  | Note |
 | :------------ | :------------- | :------------- |
-| FarmLife2Mod_A18 | WIP | |
-| MeanCloud__BarbedWireA18 | WIP | |
-| MeanCloud__Cannabis | WIP | [Original Forum Thread](https://community.7daystodie.com/topic/15554-meanclouds-cannabis-modlet-a18/)|
-| MeanCloud__DontUseUpWater | WIP | |
-| MeanCloud__EnemyReachShortener | WIP | |
-| MeanCloud__FishingA18 | WIP | [Original Forum Thread](https://community.7daystodie.com/topic/14889-meanclouds-fishing-modlet-a18/)|
-| MeanCloud__ForgesHold1M | WIP | |
-| MeanCloud__IncreasedAnimals | WIP | |
-| MeanCloud__MedStackSizes | WIP | |
-| MeanCloud__Mining | WIP | [Original Forum Thread](https://community.7daystodie.com/topic/15288-meanclouds-mining-modlet-a18-with-copper-zinc-and-excavators/)|
-| MeanCloud__RegeneratingBoulders | WIP | [Original Forum Thread](https://community.7daystodie.com/topic/14622-regenerating-boulders-modlet/)|
-| MeanCloud__RegeneratingBoulders_CaZ | WIP | |
-| MeanCloud__ScrapBoneKnives | WIP | |
-| MeanCloud__SupplementalPumpkins | WIP | |
+| FarmLife2Mod_A18 | WIP | STATUS: NOT READY FOR A19. |
+| MeanCloud__BarbedWireA18 | WIP | STATUS: NOT READY FOR A19. |
+| MeanCloud__Cannabis | WIP | STATUS: NOT READY FOR A19. [Original Forum Thread](https://community.7daystodie.com/topic/15554-meanclouds-cannabis-modlet-a18/)|
+| MeanCloud__DontUseUpWater | a19.2 b4 | STATUS: Works. |
+| MeanCloud__EnemyReachShortener | a19.2 b4 | STATUS: Works. |
+| MeanCloud__FishingA18 | WIP | STATUS: NOT READY FOR A19. [Original Forum Thread](https://community.7daystodie.com/topic/14889-meanclouds-fishing-modlet-a18/)|
+| MeanCloud__ForgesHold1M | a19.2 b4 | Works. Need testers! Not easy to test it goes to 1,000,000 ;)|
+| MeanCloud__IncreasedAnimals | a19.2 b4 | STATUS: Works. Need testers to validate it works well for all biomes.|
+| MeanCloud__MedStackSizes | a19.2 b4 | STATUS: Works. |
+| MeanCloud__Mining | a19.2 b4 | STATUS: Works. [Original Forum Thread](https://community.7daystodie.com/topic/15288-meanclouds-mining-modlet-a18-with-copper-zinc-and-excavators/). Applied [Eko's a19 updates](https://community.7daystodie.com/topic/15288-meanclouds-mining-modlet-a18-with-copper-zinc-and-excavators/?do=findComment&comment=381672)|
+| MeanCloud__RegeneratingBoulders | WIP | STATUS: ISSUES? May have issues halting RWG world generation? - Need testers! [Original Forum Thread](https://community.7daystodie.com/topic/14622-regenerating-boulders-modlet/)|
+| MeanCloud__RegeneratingBoulders_CaZ | WIP | STATUS: ISSUES? May have issues halting RWG world generation? - Need testers! Required mod: MeanCloud__Mining. Adds Copper and Zinc regenerating boulders |
+| MeanCloud__ScrapBoneKnives | a19.2 b4 | STATUS: Works. May not be needed fo a19+ as Bone knives can be scrapped to Bone |
+| MeanCloud__SupplementalPumpkins | a19.2 b4 | STATUS: Works. Modifications to pumpkin recipes with added Pumpkin Spice Latte recipe |

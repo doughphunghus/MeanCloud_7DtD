@@ -1,5 +1,9 @@
 <MeanCloud_ScrapBoneKnives>
 
+  <!-- DOUGH:
+  NOTE:
+  Looks identical to a19.2. Maybe file can be deleted?
+  -->
   <append xpath="/recipes">
 
     <!-- allow stuff with a 'Weight' value that's made of bone 'MresourceBone' material to be scrapped -->

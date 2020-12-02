@@ -29,6 +29,10 @@
 			<ingredient name="resourceCopper" count="15"/>
 		</recipe>
 
+    <!-- DOUGH: NOTE: Having it return 2 brass is weird, as recipe says 1 in UI
+    Also: Brass ratio is not perfect, and someone was asking that the crafting time be reduced..maybe this was done
+    but if not maybe a tweak to look to things? Maybe Copper 6, zinc 3? Or maybe 2 brass was the fix
+    -->
     <recipe name="resourceScrapBrass" count="2" material_based="true" craft_area="forge" craft_time="2" craft_exp_gain="0" craft_tool="toolForgeCrucible" always_unlocked="true" use_ingredient_modifier="false">
       <ingredient name="unit_copper" count="7"/>
       <ingredient name="unit_zinc" count="3"/>

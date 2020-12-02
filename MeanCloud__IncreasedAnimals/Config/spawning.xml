@@ -1,9 +1,15 @@
 <MeanCloud_IncreasedAnimals>
 
+  <!-- DOUGH:
+  NOTE: FriendlyAnimalsAll is a group this mod creates.
+  -->
+  <!-- DOUGH: FriendlyAnimalsX no longer exsit to delete
   <remove xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='FriendlyAnimalsForest']"></remove>
   <remove xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='FriendlyAnimalsDesert']"></remove>
   <remove xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='FriendlyAnimalsSnow']"></remove>
+  -->
 
+  <!-- DOUGH: Replace with the FriendlyAnimalsAll spawn group in this mod to all biomes that would normally spawn ....zeds? -->
   <insertAfter xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='ZombiesAll']">
     <spawn maxcount="4" respawndelay="2" time="Any" entitygroup="FriendlyAnimalsAll" spawnDeadChance="0" />
   </insertAfter>
@@ -24,6 +30,7 @@
     <spawn maxcount="3" respawndelay="3" time="Any" entitygroup="FriendlyAnimalsAll" spawnDeadChance="0" />
   </insertAfter>
 
+  <!-- DOUGH: Hard nerf to enemy spawn numbers -->
   <set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='EnemyAnimalsForest']/@maxcount">1</set>
   <set xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='EnemyAnimalsDesert']/@maxcount">1</set>
   <set xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='EnemyAnimalsBurntForest']/@maxcount">1</set>

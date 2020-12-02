@@ -1,6 +1,13 @@
 <MeanCloud_Pumpkins>
 
+  <!-- DOUGH: Removing as this line gives a warning
   <remove xpath="/Ignore_Warnings_In_This_Modelet[@modname='MeanCloud_Pumpkins'][@filename='\Config\blockplaceholders.xml']" />
+  -->
+
+  <!-- DOUGH:
+  NOTE: Removed and replaced placeholder are identical to vanilla a19.2
+  Can likely remove this file unless this is to ensure earlier looaded mods do not overwrite?
+  -->
   <remove xpath="/blockplaceholders/placeholder[@name='plantedPumpkin3HarvestRandomHelper']" />
 
   <append xpath="/blockplaceholders">

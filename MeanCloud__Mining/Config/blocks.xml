@@ -61,7 +61,7 @@
       <property name="SortOrder2" value="0002"/>
     </block>
   </insertBefore>
-    
+
   <!-- add the functional Rock Crusher workstation -->
   <append xpath="/blocks">
 
@@ -157,9 +157,10 @@
       <property name="UpgradeRated.Rate" value="3" /> <!-- 63 is max for the Rate, 2=fast-63=slow -->
       <drop event="Destroy" count="0"/>
       <drop event="Harvest" count="0"/>
-      <property name="DowngradeBlock" value="Excavator"/> 
+      <property name="DowngradeBlock" value="Excavator"/>
     </block>
 
+    <!-- DOUGH: This is the final container you have to harvest from Excavator -> ExcavatorV2 -->
     <block name="MiningTruck">
       <property name="CreativeMode" value="None"/>
       <property name="CustomIcon" value="machineExcavator" />
@@ -172,13 +173,13 @@
       <property name="Texture" value="352,355,355"/>
       <property name="ImposterExclude" value="true"/>
       <property name="ImposterDontBlock" value="true"/>
-      <property name="UseGlobalUV" value="Local"/>      
+      <property name="UseGlobalUV" value="Local"/>
       <property name="Weight" value="216" />
       <property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
       <property name="LootList" value="217" />
       <drop event="Destroy" count="0"/>
       <drop event="Harvest" count="0"/>
-      <property name="DowngradeBlock" value="Excavator"/> 
+      <property name="DowngradeBlock" value="Excavator"/>
     </block>
 
   </append>
@@ -189,7 +190,7 @@
 
   <!-- add copper and zinc source ore blocks, randomizing helpers for the deco_copper_vein/deco_zinc_vein prefabs, and the copper and zinc boulders -->
   <append xpath="/blocks">
-  
+
     <block name="terrOreCopper">
       <property name="MaxDamage" value="300"/>
       <property name="Material" value="Mcopper"/>
@@ -210,6 +211,12 @@
       <property name="SortOrder2" value="0050"/>
       <property name="DisplayType" value="blockTerrain" />
       <property name="DescriptionKey" value="terrOreCopper"/>
+
+      <!-- DOUGH: Adding, per Eko's suggested updates -->
+      <property name="Tags" value="ore,deepOre"/>
+      <drop event="Harvest" name="resourceRawDiamond" prob=".005" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+      <drop event="Harvest" name="resourceSilverNugget" prob=".01" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+      <drop event="Harvest" name="resourceGoldNugget" prob=".007" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
     </block>
 
     <block name="terrOreZinc">
@@ -229,13 +236,19 @@
       <property name="SortOrder2" value="0050"/>
       <property name="DisplayType" value="blockTerrain" />
       <property name="DescriptionKey" value="terrOreZinc"/>
+
+      <!-- DOUGH: Adding, per Eko's suggested updates -->
+      <property name="Tags" value="ore,deepOre"/>
+      <drop event="Harvest" name="resourceRawDiamond" prob=".005" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+      <drop event="Harvest" name="resourceSilverNugget" prob=".01" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+      <drop event="Harvest" name="resourceGoldNugget" prob=".007" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
     </block>
-    
+
     <block name="terrOreStoneCopperRandom">
       <property name="Extends" value="terrOreStoneIronRandom"/>
       <property name="CreativeMode" value="Player"/>
     </block>
-    
+
     <block name="terrOreStoneZincRandom">
       <property name="Extends" value="terrOreStoneIronRandom"/>
       <property name="CreativeMode" value="Player"/>
@@ -253,10 +266,11 @@
       <property name="Model" value="#@modfolder:Resources/Mining.unity3d?BoulderZincPrefab.prefab"/>
       <drop event="Harvest" name="resourceZinc" count="50" tag="oreWoodHarvest"/>
     </block>
-  
+
   </append>
 
   <!-- update various blocks throughout the game to produce copper and zinc where appropriate -->
+  <!-- DOUGH: WallHungSink deprecated. Replaced with pedestalSink -->
   <remove xpath="/blocks/block[@name='ductSoft']/drop[@event='Destroy']"/><append xpath="/blocks/block[@name='ductSoft']"><drop event="Destroy" name="resourceCopper" count="4" prob="1"/></append>
   <remove xpath="/blocks/block[@name='ductControlPanel']/drop[@event='Destroy']"/><append xpath="/blocks/block[@name='ductControlPanel']"><drop event="Destroy" name="resourceCopper" count="4" prob="1"/></append>
   <set xpath="/blocks/block[@name='metalPipeStraight']/property[@name='Extends']/@value">corrugatedCopperNoUpgradeMaster</set>
@@ -271,7 +285,7 @@
   <remove xpath="/blocks/block[@name='cntIceMachine']/drop[@event='Harvest'][@name='resourceScrapIron']"/><append xpath="/blocks/block[@name='cntIceMachine']"><drop event="Harvest" name="resourceCopper" count="10,20" tag="allHarvest"/></append>
   <remove xpath="/blocks/block[@name='utilitySink']/drop[@event='Destroy']"/><append xpath="/blocks/block[@name='utilitySink']"><drop event="Destroy" name="resourceCopper" count="2,10"/></append>
   <remove xpath="/blocks/block[@name='utilitySink']/drop[@event='Fall']"/><append xpath="/blocks/block[@name='utilitySink']"><drop event="Fall" name="scrapCopperPile" count="1" prob="0.75" stick_chance="1"/></append>
-  <remove xpath="/blocks/block[@name='wallHungSink']/drop[@event='Destroy']"/><append xpath="/blocks/block[@name='wallHungSink']"><drop event="Destroy" name="resourceCopper" count="2,10"/></append>
+  <remove xpath="/blocks/block[@name='pedestalSink']/drop[@event='Destroy']"/><append xpath="/blocks/block[@name='pedestalSink']"><drop event="Destroy" name="resourceCopper" count="2,10"/></append>
   <remove xpath="/blocks/block[@name='cable1']/drop[@event='Destroy']"/><append xpath="/blocks/block[@name='cable1']"><drop event="Destroy" name="resourceCopper" count="2,10"/></append>
   <set xpath="/blocks/block[@name='conduit01']/property[@name='Extends']/@value">corrugatedCopperNoUpgradeMaster</set>
   <remove xpath="/blocks/block[@name='fountain']/drop[@event='Destroy']"/><append xpath="/blocks/block[@name='fountain']"><drop event="Destroy" name="resourceCopper" count="2,10"/></append>
@@ -310,5 +324,5 @@
   <append xpath="/blocks/block[@name='streetLight01']"><drop event="Harvest" name="resourceZinc" count="1,8" prob="0.60" tag="salvageHarvest"/></append>
   <append xpath="/blocks/block[@name='streetLightClassic']"><drop event="Harvest" name="resourceZinc" count="2,10" prob="0.75" tag="salvageHarvest"/></append>
   <append xpath="/blocks/block[@name='streetLightClassic']"><drop event="Harvest" name="resourceZinc" count="1,8" prob="0.60" tag="salvageHarvest"/></append>
-  
+
 </MeanCloud_Mining>

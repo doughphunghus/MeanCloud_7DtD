@@ -11,6 +11,7 @@
       <property name="Canhold" value="false"/>
       <property name="Stacknumber" value="1"/>
       <property name="Candrop" value="false"/>
+      <property name="CustomIcon" value="missingIcon"/> <!-- DOUGH: Added for a19 -->
       <property class="Action0"><!-- AttackAction -->
         <property name="Class" value="Melee"/>
         <property name="Delay" value=".8"/> <!-- obsolete if rounds per minute exists -->
@@ -27,10 +28,12 @@
     </item>
 
   </insertAfter>
-  
+
   <!-- patch the player to use the original version of meleeHandMaster, now called meleeHandMasterPlayer -->
   <set xpath="/items/item[@name='meleeHandPlayer']/property[@name='Extends']/@value">meleeHandMasterPlayer</set>
+  <!-- DOUGH: handPlayer no longer exists
   <set xpath="/items/item[@name='handPlayer']/property[@name='Extends']/@value">meleeHandMasterPlayer</set>
+  -->
 
   <!-- patch the original meleeHandMaster to a shorter range - everything besides players will inherit from these values -->
   <set xpath="/items/item[@name='meleeHandMaster']/property[@class='Action0']/property[@name='Range']/@value">1.00</set>

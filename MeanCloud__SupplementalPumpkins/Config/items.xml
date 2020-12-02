@@ -1,6 +1,13 @@
 <MeanCloud_Pumpkins>
 
+  <!-- DOUGH: Removing as this line gives a warning
   <remove xpath="/Ignore_Warnings_In_This_Modelet[@modname='MeanCloud_Pumpkins'][@filename='\Config\items.xml']" />
+  -->
+
+  <!-- DOUGH
+  NOTE: A quick look over these appears recipes may be "identical" in most respects, with buffs added
+  May be able to remove "remove" nodes and retool, just adding the buff.  Look at later.
+  -->
   <remove xpath="/items/item[@name='foodPumpkinPie']" />
   <remove xpath="/items/item[@name='foodPumpkinCheesecake']" />
   <remove xpath="/items/item[@name='foodPumpkinBread']" />
@@ -43,7 +50,7 @@
           <requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
         </triggered_effect>
       </effect_group>
-      
+
       <property name="DescriptionKey" value="foodPumpkinPieDesc"/>
     </item>
 
@@ -78,7 +85,7 @@
           <requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
         </triggered_effect>
       </effect_group>
-      
+
       <property name="DescriptionKey" value="foodPumpkinCheesecakeDesc"/>
     </item>
 
@@ -113,7 +120,7 @@
           <requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
         </triggered_effect>
       </effect_group>
-      
+
       <property name="DescriptionKey" value="foodPumpkinBreadDesc"/>
     </item>
 
@@ -197,7 +204,7 @@
   </append>
 
   <append xpath="/items">
-    
+
     <item name="drinkJarPumpkinSpiceLatte">
       <property name="HoldType" value="3"/>
       <property name="DisplayType" value="waterCoffee"/>
