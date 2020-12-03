@@ -50,12 +50,12 @@
         <requirement name="NotHasBuff" buff="buffDrugRippedBong"/>
       </property>
       <effect_group tiered="false">
-        <display_value name="dInstantHealth" value="20"/>
+        <display_value name="dHealthAmount" value="20"/> <!-- DOUGH: CHANGED: a18 = dInstantHealth -->
         <display_value name="$foodAmountAdd" value="-10"/>
-        <display_value name="dFortitude" value="1"/>
-        <display_value name="dPerception" value="1"/>
+        <display_value name="dFortitude" value="1"/> <!-- DOUGH: exists in a19 -->
+        <!-- <display_value name="dPerception" value="1"/> --> <!-- DOUGH: Not exists in a19 -->
         <display_value name="dPhysicalDamageResist" value="15"/>
-        <display_value name="dDuration" value="123"/>
+        <display_value name="dDuration" value="123"/> <!-- DOUGH: exists in a19 -->
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugSmokedJointDuration" operation="add" value="63"/>
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugSmokedJointDuration" operation="set" value="183">
           <requirement name="CVarCompare" cvar="$buffDrugSmokedJointDuration" operation="GT" value="183"/></triggered_effect>
@@ -67,7 +67,7 @@
     <item name="toolBong">
       <property name="HoldType" value="3"/>
       <property name="Tags" value="junk"/>
-      <property name="UnlockedBy" value="perkYeahScience,toolBongSchematic"/>
+      <property name="UnlockedBy" value="perkPhysician,toolBongSchematic"/> <!-- DOUGH: Replaced perkYeahScience with toolBongSchematic -->
       <property name="Meshfile" value="#Other/Items?Food/emptyJarPrefab.prefab"/>
       <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
       <property name="Material" value="Mglass"/>
@@ -123,12 +123,12 @@
       </property>
       <property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
       <effect_group tiered="false">
-        <display_value name="dInstantHealth" value="30"/>
+        <display_value name="dHealthAmount" value="30"/> <!-- DOUGH: CHANGED: a18 = dInstantHealth -->
         <display_value name="$foodAmountAdd" value="-15"/>
-        <display_value name="dFortitude" value="2"/>
-        <display_value name="dPerception" value="2"/>
+        <display_value name="dFortitude" value="2"/> <!-- DOUGH: exists in a19 -->
+        <!-- <display_value name="dPerception" value="2"/> --> <!-- DOUGH: Not exists in a19 -->
         <display_value name="dPhysicalDamageResist" value="25"/>
-        <display_value name="dDuration" value="183"/>
+        <display_value name="dDuration" value="183"/> <!-- DOUGH: exists in a19 -->
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugRippedBongDuration" operation="add" value="183"/>
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugRippedBongDuration" operation="set" value="543">
           <requirement name="CVarCompare" cvar="$buffDrugRippedBongDuration" operation="GT" value="543"/></triggered_effect>

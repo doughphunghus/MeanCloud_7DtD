@@ -22,7 +22,7 @@
     <block name="plantedCannabis2">
       <property name="Extends" value="cropsGrowingMaster" param1="Texture,CustomIcon,Mesh"/>
       <property name="CreativeMode" value="Dev"/>
-      <property name="CustomIcon" value="plantedCannabis1"/>
+      <property name="CustomIcon" value="plantedCannabis1"/> <!-- DOUGH: Purposeful Icon choice -->
       <property name="DisplayType" value="blockMulti"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="ModelOffset" value="0,0,0"/>
@@ -60,6 +60,18 @@
       <property name="CreativeMode" value="Dev"/>
       <drop event="Harvest" name="resourceCropCannabisBud" count="1" tag="cropHarvest"/>
       <property name="DowngradeBlock" value="plantedCannabis1"/>
+
+      <!-- DOUGH: Added. Hopefully to fix error reported by Gouki on forum thread.
+      "PlantedCannabis3HarvestPlayer needs a deco shape assigned but has not"
+      Its probably the Model, but just to be safe copy it all for now
+      -->
+      <property name="CustomIcon" value="plantedCannabis3Harvest"/>
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="ModelOffset" value="0,0,0"/>
+      <property name="MultiBlockDim" value="1,2,1"/>
+      <property name="Model" value="#@modfolder:Resources/Cannabis.unity3d?CannabisPrefab_plant3.prefab"/>
+      <property name="ParticleOnDeath" value="treeGib_small_dust"/>
     </block>
 
   </append>

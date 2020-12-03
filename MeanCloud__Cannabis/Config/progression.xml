@@ -1,14 +1,18 @@
 <MeanCloud_Cannabis>
 
-  <append xpath="/progression/perks/perk[@name='perkYeahScience']">
+  <!-- DOUGH: Removed nonexistent in a19 perkYeahScience, replaced with perkPhysician
+  Tuned to max 4 as perks do not go to 5 in a19
+  -->
+  <append xpath="/progression/perks/perk[@name='perkPhysician']">
     <effect_group>
-      <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="toolBong"/>
+      <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,4" value="1" tags="toolBong"/>
     </effect_group>
   </append>
 
+  <!-- DOUGH:  Tuned to max 3 as perk do not go to 4 in a19 -->
   <append xpath="/progression/perks/perk[@name='perkLivingOffTheLand']">
     <effect_group>
-      <passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1" tags="plantedCannabis1"/>
+      <passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,3" value="1" tags="plantedCannabis1"/>
     </effect_group>
   </append>
 

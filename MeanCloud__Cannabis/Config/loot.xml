@@ -9,7 +9,10 @@
     <item name="resourceCropCannabisBud" count="1,6" prob="0.2" />
   </append>
 
-  <append xpath="/lootcontainers/lootgroup[@name='tools']">
+  <!-- DOUGH: Replaced tools with groupToolsT0
+  Given how the game is tiering loot, maybe remove this line?
+  -->
+  <append xpath="/lootcontainers/lootgroup[@name='groupToolsT0']">
     <item name="toolBongDirty" count="1" prob="0.01" />
   </append>
 
@@ -35,7 +38,10 @@
     <item name="toolBongSchematic" prob="1.4" />
   </append>
 
-  <append xpath="/lootcontainers/lootgroup[@name='farmingCookingRecipes']">
+  <!-- DOUGH: Replaced nonexistent in a19 farmingCookingRecipes with farmingCookingRecipesT1
+  Why not T0?  Just seemed correct as cannabis farming is not easy to do well?
+  -->
+  <append xpath="/lootcontainers/lootgroup[@name='farmingCookingRecipesT1']">
     <item name="plantedCannabis1Schematic" />
   </append>
 
