@@ -139,7 +139,7 @@
     </item>
 
     <item name="Fishing Rod">
-      <property name="Meshfile" value="#Other/Items?Tools/stone_shovelPrefab.prefab"/>
+      <property name="Meshfile" value="#Other/Items?Tools/shovel_stonePrefab.prefab"/>
       <property name="Material" value="Mplastics"/>
       <property name="HoldType" value="3"/>
       <property name="EconomicValue" value="225"/>
@@ -167,7 +167,7 @@
     
     <item name="Fishing Rod (Full)">
       <property name="CreativeMode" value="None"/>
-      <property name="Meshfile" value="#Other/Items?Tools/stone_shovelPrefab.prefab"/>
+      <property name="Meshfile" value="#Other/Items?Tools/shovel_stonePrefab.prefab"/>
       <property name="Material" value="Mplastics"/>
       <property name="HoldType" value="18"/>
       <property name="Stacknumber" value="1"/>
@@ -184,7 +184,7 @@
     </item>
 
     <item name="Fine Fishing Rod">
-      <property name="Meshfile" value="#Other/Items?Tools/stone_shovelPrefab.prefab"/>
+      <property name="Meshfile" value="#Other/Items?Tools/shovel_stonePrefab.prefab"/>
       <property name="Material" value="Mplastics"/>
       <property name="HoldType" value="3"/>
       <property name="EconomicValue" value="225"/>
@@ -212,7 +212,7 @@
     
     <item name="Fine Fishing Rod (Full)">
       <property name="CreativeMode" value="None"/>
-      <property name="Meshfile" value="#Other/Items?Tools/stone_shovelPrefab.prefab"/>
+      <property name="Meshfile" value="#Other/Items?Tools/shovel_stonePrefab.prefab"/>
       <property name="Material" value="Mplastics"/>
       <property name="HoldType" value="18"/>
       <property name="Stacknumber" value="1"/>

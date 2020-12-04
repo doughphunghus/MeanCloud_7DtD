@@ -28,6 +28,7 @@ I will accept outside pulls/updates/etc. to these mods as long as they maintain 
 
 #### Additional credits:
 - [Eko](https://community.7daystodie.com/profile/6168-eko/), for a19 posted fixes to MeanCloud__Mining
+- [mr.devolver](https://community.7daystodie.com/profile/2392-mrdevolver/), for 'Unofficial' update from A18.4 to A19.2 to MeanCloud__Fishing
 
 | Modlet | Tested on game version  | Note |
 | :------------ | :------------- | :------------- |
@@ -36,8 +37,8 @@ I will accept outside pulls/updates/etc. to these mods as long as they maintain 
 | MeanCloud__Cannabis | a19.2 b4 | STATUS: Works. [Original Forum Thread](https://community.7daystodie.com/topic/15554-meanclouds-cannabis-modlet-a18/)|
 | MeanCloud__DontUseUpWater | a19.2 b4 | STATUS: Works. |
 | MeanCloud__EnemyReachShortener | a19.2 b4 | STATUS: Works. |
-| MeanCloud__FishingA18 | WIP | STATUS: NOT READY FOR A19. [Original Forum Thread](https://community.7daystodie.com/topic/14889-meanclouds-fishing-modlet-a18/)|
-| MeanCloud__ForgesHold1M | a19.2 b4 | Works. Need testers! Not easy to test it goes to 1,000,000 ;)|
+| MeanCloud__Fishing | a19.2 b4 | STATUS: Works. [Original Forum Thread](https://community.7daystodie.com/topic/14889-meanclouds-fishing-modlet-a18/)|
+| MeanCloud__ForgesHold1M | a19.2 b4 | STATUS: Works. Need testers! Not easy to test it goes to 1,000,000 ;)|
 | MeanCloud__IncreasedAnimals | a19.2 b4 | STATUS: Works. Need testers to validate it works well for all biomes.|
 | MeanCloud__MedStackSizes | a19.2 b4 | STATUS: Works. |
 | MeanCloud__Mining | a19.2 b4 | STATUS: Works. [Original Forum Thread](https://community.7daystodie.com/topic/15288-meanclouds-mining-modlet-a18-with-copper-zinc-and-excavators/). Applied [Eko's a19 updates](https://community.7daystodie.com/topic/15288-meanclouds-mining-modlet-a18-with-copper-zinc-and-excavators/?do=findComment&comment=381672)|

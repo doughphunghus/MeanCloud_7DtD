@@ -39,7 +39,7 @@
       <property name="UseGlobalUV" value="Local"/>
       <property name="Weight" value="216" />
       <property name="Collide" value="movement,melee,bullet,arrow,rocket" />
-      <property name="LootList" value="360" />
+      <property name="LootList" value="361" />
       <drop event="Destroy" count="0"/>
       <drop event="Harvest" count="0"/>
       <property name="DowngradeBlock" value="fishTrap"/> 

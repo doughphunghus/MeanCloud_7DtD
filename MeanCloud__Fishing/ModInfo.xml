@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="MeanCloud's Fishing for A19"/>
+    <Description value="Adds fishing to the world using a fishing tools.  Also includes recipes to cook and prepare fish and other seafood."/>
+    <Author value="Maintainer: Doughphungus. Orig Author: Mean.Cloud. Inspired by Clockwork Orange A16 fishing modlet"/> <!-- Shout out to Clockwork Orange for his A16 fishing modlet, where I drew some inspiration from -->
+    <Version value="A19.2 1.00"/> <!-- Unofficial update from A18.4 to A19.2 by mr.devolver -->
+		<Website value="http://mean.cloud/" />
+  </ModInfo>
+</xml>

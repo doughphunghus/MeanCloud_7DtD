@@ -1,12 +1,12 @@
 Key,Source,Context,Changes,English
 perkLivingOffTheLandDesc,progression,Perk,New,"Specialize in harvesting more crops using your hands or a tool. Learn to fish and create fishing tools."
-perkLivingOffTheLandRank2LongDesc,progression,Perk,New,"You can craft seeds for flowers and decorative plants like goldenrod, chrysanthemum, aloe, and yucca as well as fishing rods."
-perkLivingOffTheLandRank4LongDesc,progression,Perk,New,"Harvest 3 items from wild or planted crops.  Craft fine fishing rods."
-perkLivingOffTheLandRank5LongDesc,progression,Perk,New,"You can craft mutated seeds and fishing traps."
+perkLivingOffTheLandRank1LongDesc,progression,Perk,New,"Harvest 2 items from wild or planted crops. Craft seeds for flowers and decorative plants like goldenrod, chrysanthemum, aloe, and yucca.\nFarm plots cost 30% less to craft. Craft fishing rods."
+perkLivingOffTheLandRank2LongDesc,progression,Perk,New,"You can craft seeds for berries and vegetables.\nFarm plots cost 50% less to craft. Craft fine fishing rods."
+perkLivingOffTheLandRank3LongDesc,progression,Perk,New,"Harvest 3 items from wild or planted crops. Craft fishing traps."
 perkMasterChefRank1LongDesc,progression,Perk,New,"Cooking is not your thing but you know some basics. Unlocks basic recipes such as bacon and eggs, boiled and grilled meats and fish, baked potatoes, cornbread, teas and coffee. Cook 10% faster."
-perkMasterChefRank2LongDesc,progression,Perk,New,"Just like grandma used to make, tasty hearty meals that fill you up for days. Craft steak and potatoes, prepared sushi, fish soup, meat stew, vegetable stew and blueberry pie. Cook 20% faster."
-perkMasterChefRank4LongDesc,progression,Perk,New,"Serve chili dogs with a nice cold beer or with a yucca juice smoothie on those really cold days. Ferment vinegar and make pickled fish. Cook 40% faster."
-perkMasterChefRank5LongDesc,progression,Perk,New,"Grandpa's ass kicking recipes. Learn grandpa's\nsecret recipes that boost stats and attributes! Make a mean fish-and-chips dish. Cook 50% faster."
+perkMasterChefRank2LongDesc,progression,Perk,New,"Just like grandma used to make, tasty hearty meals that fill you up for days. Craft steak and potatoes, prepared sushi, fish soup, meat stew, vegetable stew, blueberry pie and several pumpkin dishes. Cook 20% faster."
+perkMasterChefRank4LongDesc,progression,Perk,New,"Cook for an army by making Gumbo Stew, Shepards Pie, Spaghetti and Tuna Gravy on Toast. Ferment vinegar and make pickled fish. Cook 40% faster. Use 20% less of a recipe's main ingredients."
+perkMasterChefRank5LongDesc,progression,Perk,New,"Grandpa's ass kicking recipes.\nLearn grandpa's secret recipes that boost stats and attributes! Make a mean fish-and-chips dish. Cook 50% faster."
 foodFishTacos,items,Food,New,Fish Tacos [ccba8b](Canned)[-]
 foodFishTacosDesc,items,Food,"New,Made from canned salmon. Who wants to live off the land when it's taco Tuesday? Or is this Thursday?"
 foodFishTacosSchematic,items,Food,New,Fish Tacos [ccba8b](Canned)[-] Recipe

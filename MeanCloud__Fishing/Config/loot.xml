@@ -10,26 +10,26 @@
 		<item name="Prawn" count="3,10" prob="0.42" />
 	</append>
 
-	<append xpath="/lootcontainers/lootgroup[@name='tools']">
+	<append xpath="/lootcontainers/lootgroup[@name='groupToolsT0']">
 		<item name="Fishing Rod" count="1" prob="0.3" />
 	</append>
 
-	<append xpath="/lootcontainers/lootgroup[@name='rareTools']">
+	<append xpath="/lootcontainers/lootgroup[@name='groupToolsT3']">
 		<item name="fishTrapItem" count="1" prob="0.85" />
 		<item name="Fine Fishing Rod" count="1" prob="1" />
 	</append>
 
-	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsCommon']">
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsT0']">
 		<item name="fishTrapItemSchematic" prob="0.6" />
 		<item name="fishingRodSchematic" prob="0.8" />
 	</append>
 
-	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsRare']">
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsT2']">
 		<item name="fishingRodSchematic" prob="1.2" />
 		<item name="fineFishingRodSchematic" />
 	</append>
   
-	<append xpath="/lootcontainers/lootgroup[@name='farmingCookingRecipes']">
+	<append xpath="/lootcontainers/lootgroup[@name='farmingCookingRecipesT0']">
 		<item name="foodFishTacosFreshSchematic" />
 		<item name="foodFishSoupSchematic" />
 		<item name="foodPickledFishSchematic" />
@@ -55,7 +55,7 @@
   <append xpath="/lootcontainers">
 
     <!-- fishing trap -->
-    <lootcontainer id="360" count="3,7" size="6,3" sound_open="bucketplace_water" sound_close="SlowSwoosh" destroy_on_close="true" loot_quality_template="qualBaseTemplate">
+    <lootcontainer id="361" count="3,7" size="6,3" sound_open="bucketplace_water" sound_close="SlowSwoosh" destroy_on_close="true" loot_quality_template="qualBaseTemplate">
       <item name="Raw Fish" count="1,2" prob="0.50"/>
       <item name="Raw Fish" count="1,2" prob="0.15"/>
       <item name="Prawn" count="1,4" prob="0.30"/>
