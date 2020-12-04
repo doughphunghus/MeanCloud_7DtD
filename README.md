@@ -29,6 +29,7 @@ I will accept outside pulls/updates/etc. to these mods as long as they maintain 
 #### Additional credits:
 - :clap: [Eko](https://community.7daystodie.com/profile/6168-eko/), for a19 posted fixes to MeanCloud__Mining
 - :clap: [mr.devolver](https://community.7daystodie.com/profile/2392-mrdevolver/), for 'Unofficial' update from A18.4 to A19.2 to MeanCloud__Fishing
+- :clap: [Clockwork Orange](https://community.7daystodie.com/profile/13959-clockwork-orange/) Original inspiration was credited in source code for A16 fishing modlet
 
 | Modlet | Tested on game version  | Note |
 | :------------ | :------------- | :------------- |
