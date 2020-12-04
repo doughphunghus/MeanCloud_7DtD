@@ -29,10 +29,10 @@ I will accept outside pulls/updates/etc. to these mods as long as they maintain 
 #### Additional credits:
 - :clap: a19 Update -> [Eko](https://community.7daystodie.com/profile/6168-eko/), for a19 forum posted fixes to MeanCloud__Mining
 - :clap: a19 Update -> [mr.devolver](https://community.7daystodie.com/profile/2392-mrdevolver/), for a19 forum posted fixes to MeanCloud__Fishing
-- :clap: a18 Inspiration/concept -> [Clockwork Orange](https://community.7daystodie.com/profile/13959-clockwork-orange/) Original inspiration for MeanCloud__Fishing. Was credited in source code.
-- :clap: a18 Inspiration/concept -> [stallionsden](https://community.7daystodie.com/profile/3039-stallionsden/) Original inspiration for MeanCloud__Mining. Was credited in source code.
-- :clap: a18 Inspiration/concept -> [JaxTeller718](https://community.7daystodie.com/profile/13251-jaxteller718/) Original inspiration forMeanCloud__EnemyReachShortener. Was credited in source code.
-- :clap: Original mod author? -> [stasis](https://community.7daystodie.com/profile/48364-stasis78/) Original FarmLifeMod that FarmLife2Mod is based on? Was credited in source code.
+- :clap: a18 Inspiration/concept -> [Clockwork Orange](https://community.7daystodie.com/profile/13959-clockwork-orange/), Original inspiration for MeanCloud__Fishing. Was credited in source code.
+- :clap: a18 Inspiration/concept -> [stallionsden](https://community.7daystodie.com/profile/3039-stallionsden/), Original inspiration for MeanCloud__Mining. Was credited in source code.
+- :clap: a18 Inspiration/concept -> [JaxTeller718](https://community.7daystodie.com/profile/13251-jaxteller718/), Original inspiration forMeanCloud__EnemyReachShortener. Was credited in source code.
+- :clap: Original mod author? -> [stasis](https://community.7daystodie.com/profile/48364-stasis78/), Original FarmLifeMod that FarmLife2Mod is based on? Was credited in source code.
 
 | Modlet | Tested on game version  | Note |
 | :------------ | :------------- | :------------- |
