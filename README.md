@@ -1,5 +1,5 @@
 # MeanCloud_7DtD
-MeanCloud's 7 Days to Die modlets
+MeanCloud's a18 7 Days to Die modlets, updated for a19
 
 **For game**: [7 Days to Die](https://7daystodie.com)
 
