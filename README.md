@@ -27,8 +27,8 @@ I will accept outside pulls/updates/etc. to these mods as long as they maintain 
 - MeanCloud__Cannabis: Note: Some graphics updates for glass to show up in UI better + resizing for memory.
 
 #### Additional credits:
-- [Eko](https://community.7daystodie.com/profile/6168-eko/), for a19 posted fixes to MeanCloud__Mining
-- [mr.devolver](https://community.7daystodie.com/profile/2392-mrdevolver/), for 'Unofficial' update from A18.4 to A19.2 to MeanCloud__Fishing
+- :clap: [Eko](https://community.7daystodie.com/profile/6168-eko/), for a19 posted fixes to MeanCloud__Mining
+- :clap: [mr.devolver](https://community.7daystodie.com/profile/2392-mrdevolver/), for 'Unofficial' update from A18.4 to A19.2 to MeanCloud__Fishing
 
 | Modlet | Tested on game version  | Note |
 | :------------ | :------------- | :------------- |
