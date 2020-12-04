@@ -27,9 +27,12 @@ I will accept outside pulls/updates/etc. to these mods as long as they maintain 
 - MeanCloud__Cannabis: Note: Some graphics updates for glass to show up in UI better + resizing for memory.
 
 #### Additional credits:
-- :clap: [Eko](https://community.7daystodie.com/profile/6168-eko/), for a19 posted fixes to MeanCloud__Mining
-- :clap: [mr.devolver](https://community.7daystodie.com/profile/2392-mrdevolver/), for 'Unofficial' update from A18.4 to A19.2 to MeanCloud__Fishing
-- :clap: [Clockwork Orange](https://community.7daystodie.com/profile/13959-clockwork-orange/) Original inspiration was credited in source code for A16 fishing modlet
+- :clap: a19 Update -> [Eko](https://community.7daystodie.com/profile/6168-eko/), for a19 forum posted fixes to MeanCloud__Mining
+- :clap: a19 Update -> [mr.devolver](https://community.7daystodie.com/profile/2392-mrdevolver/), for a19 forum posted fixes to MeanCloud__Fishing
+- :clap: a18 Inspiration/concept -> [Clockwork Orange](https://community.7daystodie.com/profile/13959-clockwork-orange/) Original inspiration for MeanCloud__Fishing. Was credited in source code.
+- :clap: a18 Inspiration/concept -> [stallionsden](https://community.7daystodie.com/profile/3039-stallionsden/) Original inspiration for MeanCloud__Mining. Was credited in source code.
+- :clap: a18 Inspiration/concept -> [JaxTeller718](https://community.7daystodie.com/profile/13251-jaxteller718/) Original inspiration forMeanCloud__EnemyReachShortener. Was credited in source code.
+- :clap: Original mod author? -> [stasis](https://community.7daystodie.com/profile/48364-stasis78/) Original FarmLifeMod that FarmLife2Mod is based on? Was credited in source code.
 
 | Modlet | Tested on game version  | Note |
 | :------------ | :------------- | :------------- |
