@@ -38,7 +38,7 @@ I will accept outside pulls/updates/etc. to these mods as long as they maintain 
 | :------------ | :------------- | :------------- |
 | FarmLife2Mod_A18 | WIP | STATUS: NOT READY FOR A19. May not convert to a19 as others are working on "Farm Life" mods from this same source, and may be farther along, want to handle mainteannce of such a large mod. This appears to be the base for MeanClouds [Farm Life V2](https://community.7daystodie.com/topic/12332-farm-life-v2). This appears to be the latest: [Farm Life V3](https://community.7daystodie.com/topic/18440-modlet-farmlifev3-continuation-of-stasis-farm-life-mod-184/)|
 | MeanCloud__BarbedWire | a19.2 b4 | STATUS: Works. Originally named MeanCloud__BarbedWireA18 |
-| MeanCloud__Cannabis | a19.2 b4 | STATUS: Works. [Original Forum Thread](https://community.7daystodie.com/topic/15554-meanclouds-cannabis-modlet-a18/)|
+| MeanCloud__Cannabis | A19.3 b5 | STATUS: Works. [Original Forum Thread](https://community.7daystodie.com/topic/15554-meanclouds-cannabis-modlet-a18/)|
 | MeanCloud__DontUseUpWater | a19.2 b4 | STATUS: Works. |
 | MeanCloud__EnemyReachShortener | a19.2 b4 | STATUS: Works. |
 | MeanCloud__Fishing | a19.2 b4 | STATUS: Works. [Original Forum Thread](https://community.7daystodie.com/topic/14889-meanclouds-fishing-modlet-a18/)|
