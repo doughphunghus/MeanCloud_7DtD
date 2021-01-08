@@ -1,7 +1,7 @@
 <MeanCloud_Fishing>
 
 	<append xpath="/blocks">
-  
+
     <block name="fishTrap">
       <property name="CreativeMode" value="Dev"/>
       <property name="Class" value="UpgradeRated" />
@@ -19,10 +19,10 @@
       <property name="Collide" value="movement,melee,bullet,arrow,rocket" />
       <property name="UpgradeRated.ToBlock" value="fishTrapCaught" />
       <property name="UpgradeRated.Rate" value="8" />
-      <property name="CustomIcon" value="rebarFramePillar100" />  
+      <property name="CustomIcon" value="rebarFramePillar100" />
       <property name="CanPickup" value="true" param1="fishTrapItem"/>
     </block>
-    
+
     <block name="fishTrapCaught">
       <property name="CreativeMode" value="None"/>
       <property name="Class" value="Loot" />
@@ -39,10 +39,10 @@
       <property name="UseGlobalUV" value="Local"/>
       <property name="Weight" value="216" />
       <property name="Collide" value="movement,melee,bullet,arrow,rocket" />
-      <property name="LootList" value="361" />
+      <property name="LootList" value="456" /> <!-- DOUGH: Changed from 361 as it collides with White River Tools of Citizenship packs, in a19 -->
       <drop event="Destroy" count="0"/>
       <drop event="Harvest" count="0"/>
-      <property name="DowngradeBlock" value="fishTrap"/> 
+      <property name="DowngradeBlock" value="fishTrap"/>
       <property name="CustomIcon" value="rebarFramePillar100" />
     </block>
 
@@ -51,17 +51,17 @@
       <property name="Class" value="UpgradeRated"/>
       <property name="Material" value="Mfishingcache"/>
       <property name="StabilitySupport" value="false"/>
-      
+
       <!-- <property name="CustomIcon" value="itemFishingCacheT1"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="#Entities/LootContainers?coolerPrefab.prefab"/>
       <property name="IsTerrainDecoration" value="true"/> -->
-      
+
       <property name="CustomIcon" value="itemFishingCacheT1"/>
       <property name="Shape" value="ModelEntity"/>
       <property name="Model" value="Entities/Gore/animal_remainsPrefab"/>
       <property name="IsTerrainDecoration" value="true"/>
-      
+
       <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
       <drop event="Destroy" name="Raw Fish" count="1" prob="0.30"/>
       <drop event="Destroy" name="Rotten Fish" count="1" prob="0.10"/>
@@ -74,20 +74,20 @@
       <property name="UpgradeRated.ToBlock" value="air"/>
       <property name="UpgradeRated.Rate" value="4"/>
     </block>
-    
+
     <block name="Fishing Cache (T1)">
       <property name="CreativeMode" value="Dev"/>
       <property name="Extends" value="Fishing Cache"/>
     </block>
-    
+
     <block name="Fishing Cache (T2)">
       <property name="CreativeMode" value="Dev"/>
       <property name="Extends" value="Fishing Cache"/>
       <property name="CustomIcon" value="itemFishingCacheT2"/>
-      <drop event="Destroy" name="Raw Fish" count="1" prob="0.20"/>  
-      <drop event="Destroy" name="Prawn" count="1,2" prob="0.12"/>  
-      <drop event="Destroy" name="resourceYuccaFibers" count="1,2" prob="0.05"/> 
-      <drop event="Destroy" name="drinkCanEmpty" count="1" prob="0.01"/>   
+      <drop event="Destroy" name="Raw Fish" count="1" prob="0.20"/>
+      <drop event="Destroy" name="Prawn" count="1,2" prob="0.12"/>
+      <drop event="Destroy" name="resourceYuccaFibers" count="1,2" prob="0.05"/>
+      <drop event="Destroy" name="drinkCanEmpty" count="1" prob="0.01"/>
       <drop event="Destroy" name="resourceBone" count="1" prob="0.005"/>
       <drop event="Destroy" name="armorClothBoots" count="1" prob="0.005"/>
       <drop event="Destroy" name="armorLeatherBoots" count="1" prob="0.003"/>
@@ -98,9 +98,9 @@
       <drop event="Destroy" name="apparelCowboyBoots" count="1" prob="0.003"/>
       <drop event="Destroy" name="apparelGothBoots" count="1" prob="0.001"/>
       <drop event="Destroy" name="apparelSuitDressShoes" count="1" prob="0.0007"/>
-      <drop event="Destroy" name="apparelPlantFiberShoes" count="1" prob="0.003"/> 
+      <drop event="Destroy" name="apparelPlantFiberShoes" count="1" prob="0.003"/>
     </block>
-    
+
     <block name="Fishing Cache (T3)">
       <property name="CreativeMode" value="Dev"/>
       <property name="Extends" value="Fishing Cache (T2)"/>

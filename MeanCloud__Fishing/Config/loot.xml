@@ -28,7 +28,7 @@
 		<item name="fishingRodSchematic" prob="1.2" />
 		<item name="fineFishingRodSchematic" />
 	</append>
-  
+
 	<append xpath="/lootcontainers/lootgroup[@name='farmingCookingRecipesT0']">
 		<item name="foodFishTacosFreshSchematic" />
 		<item name="foodFishSoupSchematic" />
@@ -55,7 +55,8 @@
   <append xpath="/lootcontainers">
 
     <!-- fishing trap -->
-    <lootcontainer id="361" count="3,7" size="6,3" sound_open="bucketplace_water" sound_close="SlowSwoosh" destroy_on_close="true" loot_quality_template="qualBaseTemplate">
+    <!-- DOUGH: Changed from 361 as it collides with White River Tools of Citizenship packs, in a19 -->
+    <lootcontainer id="456" count="3,7" size="6,3" sound_open="bucketplace_water" sound_close="SlowSwoosh" destroy_on_close="true" loot_quality_template="qualBaseTemplate">
       <item name="Raw Fish" count="1,2" prob="0.50"/>
       <item name="Raw Fish" count="1,2" prob="0.15"/>
       <item name="Prawn" count="1,4" prob="0.30"/>
@@ -67,7 +68,7 @@
       <item name="resourcePaper" count="1" prob="0.005"/>
       <item name="oldCash" count="1" prob="0.0005"/>
       <item name="resourceYuccaFibers" count="1,2" prob="0.025"/>
-      <item name="drinkCanEmpty" count="1" prob="0.005"/> 
+      <item name="drinkCanEmpty" count="1" prob="0.005"/>
       <item name="resourceBone" count="1" prob="0.0025"/>
       <item name="armorClothBoots" count="1" prob="0.0005"/>
       <item name="armorLeatherBoots" count="1" prob="0.0003"/>
@@ -82,5 +83,5 @@
       <item name="armorIronBoots" count="1" prob="0.0001"/>
     </lootcontainer>
   </append>
-  
+
 </MeanCloud_Fishing>
