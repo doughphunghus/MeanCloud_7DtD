@@ -1,6 +1,0 @@
-<MeanCloud_ForgesHold1M>
-
-  <!-- DOUGH: It appears the other stacks extend from unit_iron -->
-  <set xpath="/items/item[@name='unit_iron']/property[@name='Stacknumber']/@value">1000000</set>
-
-</MeanCloud_ForgesHold1M>
