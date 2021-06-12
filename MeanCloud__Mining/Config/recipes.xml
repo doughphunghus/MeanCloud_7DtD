@@ -29,15 +29,35 @@
 			<ingredient name="resourceCopper" count="15"/>
 		</recipe>
 
-    <!-- DOUGH: NOTE: Having it return 2 brass is weird, as recipe says 1 in UI
-    Also: Brass ratio is not perfect, and someone was asking that the crafting time be reduced..maybe this was done
-    but if not maybe a tweak to look to things? Maybe Copper 6, zinc 3? Or maybe 2 brass was the fix
+    <!-- DOUGH: NOTE: 2 recipes to be able to remove zinc and copper from the forge.
+      Courtesy of Cranberry Monster: https://community.7daystodie.com/profile/78257-cranberry-monster/
+    -->
+    <recipe name="resourceCopper" count="1" material_based="true" craft_area="forge" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+        <ingredient name="unit_copper" count="5"/>
+    </recipe>
+
+    <recipe name="resourceZinc" count="1" material_based="true" craft_area="forge" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+        <ingredient name="unit_zinc" count="5"/>
+    </recipe>
+
+    <!-- DOUGH:
+    CURRENT NOTE: This recipe is OK/balanced. See notes for resourceBulletCasing
+    Basically: Making brass with this is a tiny bit "better" thjatn regular vanilla, so
+    slower crafting time and less ingredients probably balances out over time
+    OLD NOTE: Having it return 2 brass is weird, as recipe says 1 in UI BUT:
+    Also: Brass ratio "is not perfect", and someone was asking that the crafting time be reduced..maybe this was done
+    but if not maybe a tweak to look to things?
+    Maybe Copper 6, zinc 3? Or maybe 2 brass was the fix
+    "The composition of brass, generally 66% copper and 34% zinc..." so 7 and 3 is reasonable
     -->
     <recipe name="resourceScrapBrass" count="2" material_based="true" craft_area="forge" craft_time="2" craft_exp_gain="0" craft_tool="toolForgeCrucible" always_unlocked="true" use_ingredient_modifier="false">
       <ingredient name="unit_copper" count="7"/>
       <ingredient name="unit_zinc" count="3"/>
     </recipe>
 
+    <!-- vanilla a19 resourceBulletCasing = 5 brass, so this is 50% the cost....
+    buuut you have to mine 2x the materials... so this seems balanced enough
+    -->
     <recipe name="resourceBulletCasing" count="1" material_based="true" craft_area="forge" craft_time="1" tags="forgeCrafting">
       <ingredient name="unit_copper" count="7"/>
       <ingredient name="unit_zinc" count="3"/>

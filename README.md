@@ -16,7 +16,7 @@ I will accept outside pulls/updates/etc. to these mods as long as they maintain 
 
 **Discussions (and additional info, links, etc)**: [My modlets main page](https://community.7daystodie.com/topic/17197-doughs-modlets)
 
-#### Doughphunghus's fork - a19 updates notes:
+#### Doughphunghus's fork - a19 major updates notes:
 - Updated this README
 - Changes were done to try to preserve original functionality as much as possible, even if appearance is unbalanced/weird/odd/unique.
 - Attempting to comment in source files when changes are made.
@@ -26,8 +26,10 @@ I will accept outside pulls/updates/etc. to these mods as long as they maintain 
 - Reconfigured items/loot/perks etc to new groups/perks when original "thing" no longer exists.
 - MeanCloud__Cannabis: Note: Some graphics updates for glass to show up in UI better + resizing for memory.
 - MeanCloud__ForgesHold1M: DECOMMED 3/21/2021. Due to issues that may cause game/forge instability. See [Decom forum post](https://community.7daystodie.com/topic/17197-doughs-modlets/?do=findComment&comment=423131)
+- MeanCloud__Mining: For a19.5 b60 - Changed a LootGroup id as it was colliding with other mining mods.
 
 #### Additional credits:
+- :clap: a19.5 b60 Update -> [Cranberry Monster](https://community.7daystodie.com/profile/78257-cranberry-monster/), for a19 forum posted fixes to MeanCloud__Mining for recipes to empty forge of Zinc and Copper.
 - :clap: a19 Update -> [Eko](https://community.7daystodie.com/profile/6168-eko/), for a19 forum posted fixes to MeanCloud__Mining
 - :clap: a19 Update -> [mr.devolver](https://community.7daystodie.com/profile/2392-mrdevolver/), for a19 forum posted fixes to MeanCloud__Fishing
 - :clap: a18 Inspiration/concept -> [Clockwork Orange](https://community.7daystodie.com/profile/13959-clockwork-orange/), Original inspiration for MeanCloud__Fishing. Was credited in source code.
@@ -46,7 +48,7 @@ I will accept outside pulls/updates/etc. to these mods as long as they maintain 
 | MeanCloud__ForgesHold1M | DECOMMED | STATUS: DECOMMED 3/21/2021. Due to issues that may cause game/forge instability in a19. See [Decom forum post](https://community.7daystodie.com/topic/17197-doughs-modlets/?do=findComment&comment=423131)|
 | MeanCloud__IncreasedAnimals | a19.2 b4 | STATUS: Works. Need testers to validate it works well for all biomes.|
 | MeanCloud__MedStackSizes | a19.2 b4 | STATUS: Works. |
-| MeanCloud__Mining | a19.2 b4 | STATUS: Works. [Original Forum Thread](https://community.7daystodie.com/topic/15288-meanclouds-mining-modlet-a18-with-copper-zinc-and-excavators/). Applied [Eko's a19 updates](https://community.7daystodie.com/topic/15288-meanclouds-mining-modlet-a18-with-copper-zinc-and-excavators/?do=findComment&comment=381672)|
+| MeanCloud__Mining | a19.5 b60 | STATUS: Works. [Original Forum Thread](https://community.7daystodie.com/topic/15288-meanclouds-mining-modlet-a18-with-copper-zinc-and-excavators/). Applied [Eko's a19 updates](https://community.7daystodie.com/topic/15288-meanclouds-mining-modlet-a18-with-copper-zinc-and-excavators/?do=findComment&comment=381672)|
 | MeanCloud__RegeneratingBoulders | a19.2 b4 | STATUS: ISSUES? May have issues halting RWG world generation? - Need testers! [Original Forum Thread](https://community.7daystodie.com/topic/14622-regenerating-boulders-modlet/)|
 | MeanCloud__RegeneratingBoulders_CaZ | a19.2 b4 | STATUS: ISSUES? May have issues halting RWG world generation? - Need testers! Required mod: MeanCloud__Mining. Adds Copper and Zinc regenerating boulders |
 | MeanCloud__ScrapBoneKnives | a19.2 b4 | STATUS: Works. May not be needed fo a19+ as Bone knives can be scrapped to Bone |

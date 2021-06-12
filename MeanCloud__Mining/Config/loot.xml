@@ -37,7 +37,8 @@
   <insertAfter xpath="/lootcontainers/lootcontainer[@id='116']">
 
     <!-- Excavator (Excavator / MiningTruck) loot -->
-    <lootcontainer id="217" count="1,6" size="8,9" sound_open="forge_open" sound_close="forge_close" destroy_on_close="true" loot_quality_template="qualBaseTemplate">
+    <!-- DOUGH: was 217. Collided with Stallionsdens Mining Machine and Rain Catcher (Tiger Model with Sound) -->
+    <lootcontainer id="651" count="1,6" size="8,9" sound_open="forge_open" sound_close="forge_close" destroy_on_close="true" loot_quality_template="qualBaseTemplate">
       <!-- terrain blocks -->
       <item name="terrStone" count="4,12" prob="0.1"/>
       <item name="terrSand" count="3,9" prob="0.05"/>
@@ -83,7 +84,7 @@
       <item name="resourceBone" count="1,2" prob="0.002"/>
       <item name="resourceBrokenGlass" count="1,6" prob="0.001"/>
     </lootcontainer>
-  
+
   </insertAfter>
 
 </MeanCloud_Mining>
